@@ -28,7 +28,7 @@ public class MySQLConnectionTest {
             
             logger.info("==================== MySQL Connection START ====================");
             
-            Class.forName(DRIVER);
+            Class.forName(DRIVER);	
             
             conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
             stmt = conn.createStatement();
