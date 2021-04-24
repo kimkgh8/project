@@ -3,7 +3,7 @@ package com.spring.managementProject.form;
 import java.util.Date;
  
 public class BoardForm {
- 
+	 
     int board_seq;
     int board_re_ref;
     int board_re_lev;
@@ -17,6 +17,7 @@ public class BoardForm {
     Date ins_date;
     String upd_user_id;
     Date upd_date;
+    String search_type;
  
     public int getBoard_seq() {
         return board_seq;
@@ -122,5 +123,14 @@ public class BoardForm {
         this.upd_date = upd_date;
     }
  
+    public String getSearch_type() {
+        return search_type;
+    }
+ 
+    public void setSearch_type(String search_type) {
+        this.search_type = search_type;
+    }
+ 
 }
+
 
